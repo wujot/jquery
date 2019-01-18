@@ -23,7 +23,6 @@
 		};
 		
 		// I teraz przypiszemy funkcję headerClickCallback do każdego nagłówka. 
-		
 		for(var i = 0; i < headers.length; i++){
 			headers[i].addEventListener('click', headerClickCallback);
 		}
@@ -34,13 +33,13 @@
 	// Teraz Twoja kolej - w poniższej funkcji wpisz kod wykorzystujący jQuery, który sprawi że drugi akordeon będzie działał identycznie do pierwszego. 
 	
 	var accordionJQuery = function(){
-	$('h3').click(function() {
-      	$(this).addClass('active');
-      	$('h3').removeClass('active');  
-      	$(this).siblings().addClass('active');
-    })};
+		$('h3').click(function() {
+	      	$(this).addClass('active');
+	      	$('h3').removeClass('active');  
+	      	$(this).siblings().addClass('active');
+		})
+	};
 	
 	accordionJQuery();
-	
 	
 })(); 
