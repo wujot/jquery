@@ -34,9 +34,9 @@
 	
 	var accordionJQuery = function(){
 		$('h3').click(function() {
-	      	$(this).addClass('active');
-	      	$('h3').removeClass('active');  
-	      	$(this).siblings().addClass('active');
+	      $(this).addClass('active');
+	      $('h3').removeClass('active');  
+	      $(this).siblings().addClass('active');
 		})
 	};
 	
